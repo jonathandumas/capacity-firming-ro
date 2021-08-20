@@ -74,8 +74,8 @@ It allows to draw the heatmaps presented in the paper to compte the results.
 The ro/robust/algorithms folder contains the BD and CCG algorithms.
 
 The procedure to use the code is the following:
-* specify in the ro_loop.py file the algorithm (BD or CCG), the type of robust optimization (static or dynamic), and the numerical parameters of the algorithm (convergence threshold, big-M's values, etc)
-* run the ro_loop.py file -> the day-ahead planning are computed
-* run the controller_loop.py -> the intraday profits are computed by the controller that uses the intraday PV point forecasts and the day-ahead plannings
-* when you have computed all the day-ahead planning for all pairs of risk-averse parameters for both the BD and CCG algorithms for both the LSTM and NF PV quantiles you can use the res_heatmap.py. Note: you have to compute the day-ahead planning in the deterministic mode also with the det_loop.py file in the ro/determinist to have the entire heatmaps.
+* specify in the `ro_loop.py` file the algorithm (BD or CCG), the type of robust optimization (static or dynamic), and the numerical parameters of the algorithm (convergence threshold, big-M's values, etc);
+* run `ro_loop.py` -> the day-ahead planning are computed;
+* run `controller_loop.py` -> the intraday profits are computed by the controller that uses the intraday PV point forecasts and the day-ahead plannings
+* when you have computed all the day-ahead planning for all pairs of risk-averse parameters for both the BD and CCG algorithms for both the LSTM and NF PV quantiles you can use `res_heatmap.py`. Note: you have to compute the day-ahead planning in the deterministic mode also with `det_loop.py` in the ro/determinist to have the entire heatmaps.
 
