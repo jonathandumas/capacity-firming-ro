@@ -3,6 +3,7 @@ Official implementation of a two-stage robust optimization algorithm in the capa
 > Dumas, Jonathan, et al. "Probabilistic forecasting for sizing in the capacity firming framework." arXiv preprint arXiv:2106.02323 (2021).
 > [[arxiv]](https://arxiv.org/abs/2106.02323)
 Note: this paper is under review for IEEE-TSE.
+
 The extended version of this paper is:
 > TODO
 > [[arxiv]]()
