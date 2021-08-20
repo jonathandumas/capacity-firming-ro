@@ -79,12 +79,20 @@ The procedure to use the code is the following:
 * run `controller_loop.py` -> the intraday profits are computed by the controller that uses the intraday PV point forecasts and the day-ahead plannings
 * when you have computed all the day-ahead planning for all pairs of risk-averse parameters for both the BD and CCG algorithms for both the LSTM and NF PV quantiles you can use `res_heatmap.py`. Note: you have to compute the day-ahead planning in the deterministic mode also with `det_loop.py` in the ro/determinist to have the entire heatmaps.
 
-## Results examples
+## Example: NF-BD static robust optimization
 For instance by using the BD algorithm in static robust optimization for several pairs of risk-averse parameters:
 ![BD-NF-static](https://github.com/jonathandumas/capacity-firming-ro/blob/23ac75ae0a626fdfa4b65ccffd9a99e0a9998020/figures/BD_NF_RO_static.png)
 * Nominal is the deterministic day-ahead planner using PV point forecasts;
 * the column \ is the deterministic day-ahead planner using PV quantile forecasts;
 * the BD algorithm computed day-ahead planning for several pairs (q, gamma);
+
+## Example: NF-CCG dynamic robust optimization
+For instance by using the CCG algorithm in dynamic robust optimization for several pairs of risk-averse parameters:
+![CCG-NF-dynamic](https://github.com/jonathandumas/capacity-firming-ro/blob/1c4ef372746705624518984da4eed19d0eb2ea63/figures/CCG_NF_RO_dyn.png)
+* Nominal is the deterministic day-ahead planner using PV point forecasts;
+* the column \ is the deterministic day-ahead planner using PV quantile forecasts;
+* the BD algorithm computed day-ahead planning for several pairs (d_q, d_gamma);
+
 
 
 
