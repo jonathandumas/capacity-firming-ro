@@ -5,4 +5,4 @@ Official implementation of a two-stage robust optimization algorithm in the capa
 Note: this paper is under review for IEEE-TSE.
 
 # Forecast-driven robust optimization strategy
-![](https://github.com/jonathandumas/capacity-firming/blob/7f31dfd6ea215ac069bb4abddf95564f9744217b/figures/methodology_scheme.pdf)
+![strategy](https://github.com/jonathandumas/capacity-firming/blob/7f31dfd6ea215ac069bb4abddf95564f9744217b/figures/methodology_scheme.pdf)
