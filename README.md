@@ -8,6 +8,19 @@ The extended version of this paper is:
 > TODO
 > [[arxiv]]()
 
+## Cite
+
+If you make use of this code in your own work, please cite our arXiv paper:
+
+```
+@article{dumas2021probabilistic,
+  title={A Probabilistic Forecast-Driven Strategy for a Risk-Aware Participation in the Capacity Firming Market},
+  author={Dumas, Jonathan and Cointe, Colin and Wehenkel, Antoine and Sutera, Antonio and Fettweis, Xavier and Corn{\'e}lusse, Bertrand},
+  journal={arXiv preprint arXiv:2105.13801},
+  year={2021}
+}
+```
+
 # Forecast-driven robust optimization strategy
 ![strategy](https://github.com/jonathandumas/capacity-firming/blob/9a54f129fa67d4be094d076c8e29dd2f5eaca3be/figures/methodology_scheme.png)
 
