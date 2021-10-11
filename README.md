@@ -1,24 +1,24 @@
 # Capacity-firming
-Official implementation of a two-stage robust optimization algorithm in the capacity firming framework and the experiments presented in the paper:
-> Dumas, Jonathan, et al. "A Probabilistic Forecast-Driven Strategy for a Risk-Aware Participation in the Capacity Firming Market." arXiv preprint arXiv:2105.13801 (2021).
-> [[arxiv]](https://arxiv.org/abs/2105.13801)
-
-Note: this paper is under review for IEEE-TSE.
+Official implementation of a two-stage robust optimization algorithm in the capacity firming framework and the experiments presented the paper:
+- J. Dumas, C. Cointe, A. Wehenkel, A. Sutera, X. Fettweis and B. Cornelusse, "A Probabilistic Forecast-Driven Strategy for a Risk-Aware Participation in the Capacity Firming Market," in IEEE Transactions on Sustainable Energy, doi: 10.1109/TSTE.2021.3117594.
 
 ## Cite
 
-If you make use of this code, please cite our arXiv paper:
+If you make use of this code, please cite our IEEE paper:
 
 ```
 @article{dumas2021probabilistic,
-  title={A Probabilistic Forecast-Driven Strategy for a Risk-Aware Participation in the Capacity Firming Market},
-  author={Dumas, Jonathan and Cointe, Colin and Wehenkel, Antoine and Sutera, Antonio and Fettweis, Xavier and Corn{\'e}lusse, Bertrand},
-  journal={arXiv preprint arXiv:2105.13801},
-  year={2021}
-}
+  author={Dumas, Jonathan and Cointe, Colin and Wehenkel, Antoine and Sutera, Antonio and Fettweis, Xavier and Cornelusse, Bertrand},
+  journal={IEEE Transactions on Sustainable Energy}, 
+  title={A Probabilistic Forecast-Driven Strategy for a Risk-Aware Participation in the Capacity Firming Market}, 
+  year={2021},
+  volume={},
+  number={},
+  pages={1-1},
+  doi={10.1109/TSTE.2021.3117594}}
 ```
 
-Note: the reference will be changed if the paper is accepted for publication in IEEE-TSE.
+Note: an extended version is available on [arXiv](https://arxiv.org/abs/2105.13801)
 
 # Forecast-driven robust optimization strategy
 ![strategy](https://github.com/jonathandumas/capacity-firming/blob/9a54f129fa67d4be094d076c8e29dd2f5eaca3be/figures/methodology_scheme.png)
